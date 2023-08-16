@@ -6,14 +6,14 @@ ESPHome's primary vocation is to enable users  with *no computer skills* to crea
 
 ## Clarification of the terminology  used
 
-- A '**module**' (**device**) designates a set of **components** grouped together by a user to perform a function . In ESPHome, the description of a  module is defined in a yaml file. For example, you could define a module to measure room temperature. To do this, we'll use an ESP32 micro-controller connected via an I²C bus to a temperature sensor.
+- A '**device**' designates a set of **components** grouped together by a user to perform a specific function. In ESPHome, the description of a  module is defined in a yaml file. For example, you could define a module to measure room temperature. To do this, we'll use an ESP32 micro-controller connected via an I²C bus to a temperature sensor.
 - A '**component**' is a basic element of the ESPHome library. Components can be physical, such as a sensor, or logical, such as an I²C bus. A component is defined by a set of files in C++ and Python.
 
 A normal ESPHome **user** creates new **modules.** The modules are described in a Yaml configuration file, and from this description the ESPHome program automatically generates C++ code.  This code is compiled and an executable is generated. The resulting  firmware is loaded into the micro-controller's memory and run.
 
 A **developer** for ESPHome will create new **components** for the library. This is a much more complex operation, as it requires the developer to describe how the component works , using both C++ and Python. This requires a good knowledge of C++, and basic noons of Python.
 
-I was faced with the problem of creating an [ESPHome](https://esphome.io/)**module** that used **components** that *didn't exist* in the [ESPHome](https://esphome.io/)  **library**. So I wondered what procedure and tools I should use to create this new component.
+I was faced with the problem of creating an [ESPHome](https://esphome.io/) **module** that used **components** that *didn't exist* in the [ESPHome](https://esphome.io/) **library**. So I wondered what procedure and tools I should use to create this new component.
 
 To my knowledge, there are many tutorials on creating  modules in ESPHome, but very few on creating  new components. So I went through a process of trial and error, with the help of other users, and eventually defined an environment and a process to follow. As I learned quite a lot along the way, I thought it would be interesting to share this experience. I'd like to make it clear  that this is how I do things, but of course there are other ways of doing things.
 
