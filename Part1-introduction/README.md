@@ -55,6 +55,6 @@ The process begins with :
 
 Next we are going to look at installing the correct software environment for developing our component.
 
-- [Introduction document in English](/part1-introduction-en-US.pdf)
+- [Introduction document in English](/Part1-introduction/part1-introduction-en-US.pdf)
 - [Video in French](https://youtu.be/cindv-3cWSg)
-- [Document d'introduction en Français](/part1-introduction-fr-FR.pdf)
+- [Document d'introduction en Français](/Part1-introduction/part1-introduction-fr-FR.pdf)
