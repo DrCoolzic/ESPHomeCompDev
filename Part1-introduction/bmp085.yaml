@@ -1,0 +1,29 @@
+esphome:
+  name: bmp085
+  friendly_name: BMP085
+  platform: esp32
+  board: esp32dev
+
+# Enable Home Assistant API
+api:
+
+# Connect to Wifi
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+# Define I²C Bus
+i2c:
+  sda: 21
+  scl: 22
+  scan: true
+  id: i2_bus_id
+  
+# Define and connect bmp085
+sensor:
+  - platform: bmp085
+    i2c_id: i2_bus_id
+    address: 0x77
+    update_interval: 60s
+    temperature:
+      name: "Outside Temperature"

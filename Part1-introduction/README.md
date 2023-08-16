@@ -13,7 +13,7 @@ A normal ESPHome **user** creates new **modules.** The modules are described in 
 
 A **developer** for ESPHome will create new **components** for the library. This is a much more complex operation, as it requires the developer to describe how the component works , using both C++ and Python. This requires a good knowledge of C++, and basic noons of Python.
 
-I was faced with the problem of creating an [ESPHome](https://esphome.io/)**module** that used **components** that *didn't exist* in the [ESPHome](https://esphome.io/)**library**. So I wondered what procedure and tools I should use to create this new component.
+I was faced with the problem of creating an [ESPHome](https://esphome.io/)**module** that used **components** that *didn't exist* in the [ESPHome](https://esphome.io/)  **library**. So I wondered what procedure and tools I should use to create this new component.
 
 To my knowledge, there are many tutorials on creating  modules in ESPHome, but very few on creating  new components. So I went through a process of trial and error, with the help of other users, and eventually defined an environment and a process to follow. As I learned quite a lot along the way, I thought it would be interesting to share this experience. I'd like to make it clear  that this is how I do things, but of course there are other ways of doing things.
 
@@ -54,3 +54,7 @@ The process begins with :
 - Although it's not mentioned anywhere, I think that when you add  a new component to ESPHome it's implicitly understood that you're committed to maintaining that component (bug-fix and enhancement). For this, your GitHub developer name is associated with the component.
 
 Next we are going to look at installing the correct software environment for developing our component.
+
+- [Introduction document in English](ESPHomeCompDev/Part1-introduction/part1-introduction-en-US.pdf)
+- [Video in French](https://youtu.be/cindv-3cWSg)
+- [Document d'introduction en Français](ESPHomeCompDev/Part1-introduction/part1-introduction-fr-FR.pdf)
