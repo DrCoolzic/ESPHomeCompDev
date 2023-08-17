@@ -1,5 +1,5 @@
 # title
-
+![image](./images/title3.png)
 ## Basic Equipment
 
 To upload and verify that a module works correctly, you will need the following items:
@@ -55,6 +55,7 @@ The [ESP-PROG](https://espressif-docs.readthedocs-hosted.com/projects/esp-dev-ki
 | 4                       | GND      | GND      | 21                     |
 | 5                       | ESP_RXD  | RX       | 36                     |
 | 6                       | ESP_IO0  | IO_0     | 27                     |
+[^1]: This is a guideline only, as it varies according to the kit used.
 
 ### Connecting the JTAG interface
 
@@ -73,7 +74,7 @@ The [ESP-PROG](https://espressif-docs.readthedocs-hosted.com/projects/esp-dev-ki
 
 To summarize, connect the JTAG interface to input/output pins IO-12, IO-13, IO-14 and IO-15. The program interface is connected to pins En, IO-0, RX, TX, 3.3 V and ground. With this set-up, all the components on the development board are automatically powered via the computer's USB socket.
 
-## Installing drivers for the ESP-PROG card
+## Installing  drivers for the ESP-PROG card
 
 Once you've completed the hardware installation, you now need to install the drivers required for the system to work properly. This installation is described in detail in the [PlatformIO documentation: Dual RS232 HS](https://docs.platformio.org/en/stable/plus/debug-tools/esp-prog.html)
 
@@ -110,7 +111,7 @@ To compile projects that can be debugged, we need two build configurations in pl
 
 As the two configurations will share most of their parameters, we have a common section to hold these shared parameters:
 
-```python
+```platformio
 \[common\]
 platform = https://github.com/platformio/platform-espressif32.git
 board = esp-wrover-kit
@@ -196,5 +197,3 @@ void loop() {
     sprintf(str, 'Current time %.2f second%c', clk() / 1000.0, clk() \< 2000 ? ' ' : 's');
     Serial.println(str);
 }
-
-[^1]: This is a guideline only, as it varies according to the kit used.

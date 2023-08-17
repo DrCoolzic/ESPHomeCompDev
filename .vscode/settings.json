@@ -3,4 +3,7 @@
     "code-eol.newlineCharacter": "¬",
     "code-eol.returnCharacter": "¤",
     "code-eol.crlfCharacter": "¤¬",
+    "cSpell.words": [
+        "platformio"
+    ],
 }
