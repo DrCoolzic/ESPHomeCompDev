@@ -1,0 +1,14 @@
+# ignore executable
+*.exe
+
+# ignore output from doxygen
+html/
+*.chm
+
+# ignore VSCode reglages
+.vscode/
+
+# sphinx 
+_build/
+_static/
+_template/
