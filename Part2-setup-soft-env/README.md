@@ -1,4 +1,6 @@
-# Windows software development environment
+# Software development environment
+
+![image](./images/title2.png)
 
 ***We are now going to install the different software needed to do development directly under Windows. Compared to using containers, this way of doing things is easy to understand and the performance is better. However, there are some operations that I couldn't get to work properly on Windows (like clang-tidy) that's why I have a section of this document that shows how to do development using the Dev Container of ESP Home. We'll see the usefulness of this when I describe the code submission process in GitHub.***
 
