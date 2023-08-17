@@ -1,0 +1,6 @@
+{
+    "editor.renderWhitespace": "all",
+    "code-eol.newlineCharacter": "¬",
+    "code-eol.returnCharacter": "¤",
+    "code-eol.crlfCharacter": "¤¬",
+}
