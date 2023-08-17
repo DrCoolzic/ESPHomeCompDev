@@ -1,0 +1,9 @@
+# ignore executable
+*.exe
+
+# ignore output from doxygen
+html/
+*.chm
+
+# ignore VSCode reglages
+.vscode/

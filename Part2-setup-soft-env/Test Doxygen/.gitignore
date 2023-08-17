@@ -1,0 +1,11 @@
+*.exe
+
+# doxygen output
+html/
+*.chm
+
+# cmake intermediate
+build/
+
+# VsCode
+.vscode

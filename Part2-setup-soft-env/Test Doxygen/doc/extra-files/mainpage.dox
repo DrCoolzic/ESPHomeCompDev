@@ -1,0 +1,31 @@
+/**
+	\mainpage Simple arithmetic calculator and Doxygen presentation
+	This is a simple implementation of an arithmetic calculator. \n
+	This project is to show how to generate documentation with doxygen.
+	\n
+	\image{inline} html UseCase.png "use case"
+	\n
+	\section section1 Section title 1
+	\subsection sub1 This is a subsection title
+	This is the text that will be printed in subsection
+	\subsection sub2 This is a second subsection title.
+	Text ...
+	 
+	\page page1 First page
+	\section section2 Section title 2
+	\htmlonly
+	 <p>This text is paragraph formated.</p>
+
+	 <p><b>This text is bold.</b></p>
+	\endhtmlonly
+	 
+	\page page2 Second page
+	\section section3 Section title 3
+	\htmlonly
+
+	 <p>This text is paragraph formated.</p>
+
+	 <p><b>This text is bold.</b></p>
+	 
+	\endhtmlonly
+*/
