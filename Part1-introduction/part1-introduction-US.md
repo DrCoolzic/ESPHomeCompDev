@@ -20,6 +20,7 @@ To create a new **module** in ESPHome, you need to define all the components you
 For example, to create a 'room temperature measurement' module, you'll specify that you want to use: an ESP32 micro-controller installed on an esp32dev development board, connected to a BMP085 sensor via an I²C bus. The sensor measures the temperature and sends it back to Home Assistant via ESPHome's nave  Wifi API.  
 The Yaml file will look like this:  
 ![image](images/bmp85-yaml.png)
+
 In this file, we indicate that we're creating a new  ESPHome module called 'test-bpm085', that the microprocessor used is an 'ESP32', which is mounted on an 'esp32dev' development board, that the module connects to your 'Wi-Fi' network, that it communicates with Home Assistant using the 'native api protocol', that it uses an 'I²C' bus, and that a 'BMP085 sensor' connected to the I²C bus returns the temperature.
 Based on this description, ESPHome works its *magic*  by performing the following tasks:
 
