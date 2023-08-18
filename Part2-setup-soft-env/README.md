@@ -381,83 +381,55 @@ Selections:
 ### DevContainer
 
 - [GitHub Codespaces](https://docs.github.com/en/codespaces/overview)(GitHub)
-
 - [Introduction to dev containers (GitHub)](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers)
-
 - [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)(MS)
-
 - [Remote Development Tips and Tricks](https://code.visualstudio.com/docs/remote/troubleshooting#_resolving-git-line-ending-issues-in-wsl-resulting-in-many-modified-files)(MS)
 
 ### Docker
 
 - [Install Docker Desktop on Windows](https://docs.docker.com/desktop/install/windows-install/)(docker)
-
-- [Docker in Visual Studio Code](https://code.visualstudio.com/docs/containers/overview)(MS)
+- [Docker in Visual Studio Code (MS)](https://code.visualstudio.com/docs/containers/overview)
 
 ### ESP Home
 
 - [Contributing to ESP Home](https://esphome.io/guides/contributing.html#setting-up-git-environment)(ESPHome)
-
 - [Generic Custom Component](https://esphome.io/custom/custom_component.html)(ESPHome)
-
 - [Custom Sensor Component](https://d.docs.live.net/d4b909a53d0925af/Documents/Document%20Notariaux)(ESPHome)
-
 - [Submit your work](https://developers.home-assistant.io/docs/development_submitting)(HA)
-
 - [Catching up with Reality](https://developers.home-assistant.io/docs/development_catching_up)(HA)
 
 ### Espressif / Arduino – Programming/Reference
 
 - [ESP-IDF Programming Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
-
 - [ESP32 Technical Reference Manual](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf)
-
 - [Arduino Language Reference](https://arduinogetstarted.com/arduino-language-reference)
-
 - [Arduino MultiSpeed I2C Scanner](https://github.com/RobTillaart/MultiSpeedI2CScanner)
-
 - [I²C Scanner code](https://playground.arduino.cc/Main/I2cScan)
-
 - [Working with I2C Devices](https://learn.adafruit.com/working-with-i2c-devices)
-
 - [How many Devices can you Connect to the I2C Bus?](https://www.bluedot.space/tutorials/how-many-devices-can-you-connect-on-i2c-bus/#:~:text=As%20mentioned%20earlier%2C%20connecting%20multiple,and%20the%20ground%20(GND))
-
 - [PlatformIO Tutorial for Arduino and ESP – First Steps with Visual Studio Code](https://www.youtube.com/watch?v=SAVczh7W1Oc)(Video EN)
-
 - [Getting Started with VS Code and PlatformIO IDE for ESP32 and ESP8266](https://randomnerdtutorials.com/vs-code-platformio-ide-esp32-esp8266-arduino/)
-
 - [Understanding the I2C bus (Video EN)](https://www.youtube.com/watch?v=15XY4LoQyjc)
 
 ### Git/GitHub
 
 - [Contributing to projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)(GitHub)
-
 - [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk)(Video EN)
-
 - [Working with GitHub in VS Code](https://code.visualstudio.com/docs/sourcecontrol/github)
-
 - [Git](https://cours-web.ch/git/)
-
 - [Using Git with VS Code and PlatformIO](https://www.youtube.com/watch?v=NdgMuZBpyo8&t=33s)(Video EN)
 
 ### VS Code
 
 - [Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)(MS)
-
 - [C/C++ for Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp)
-
 - [Configure VS Code for Microsoft C++](https://code.visualstudio.com/docs/cpp/config-msvc)
-
 - [How to run a C program in Visual Studio Code?](https://www.javatpoint.com/how-to-run-a-c-program-in-visual-studio-code)
-
 - [VS Code documentation](https://code.visualstudio.com/docs)
-
 - [Visual Studio Code Crash Course](https://www.youtube.com/watch?v=WPqXP_kLzpo)
 
 ### WSL
 
 - [Install Linux on Windows with WSL](https://learn.microsoft.com/fr-fr/windows/wsl/install)(MS)
-
 - [Troubleshooting Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/troubleshooting)
-
 - [Set up a WSL development environment](https://learn.microsoft.com/en-us/windows/wsl/setup/environment?source=recommendations)
