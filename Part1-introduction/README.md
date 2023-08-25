@@ -1,10 +1,16 @@
 # ![image](./images/title1.png)
 
-This section briefly recalls how ESPHome works for a user who wants to create new modules.
-Next, we'll take a quick look at what a developer needs to do to create new components for ESPHome.
+This section briefly explains how ESPHome works for users wishing to create new modules.
+
+Next, we'll take a quick look at what a developer needs to do for creating new components for ESPHome.
 ___
-[Read the introduction document in English](/Part1-introduction/part1-introduction-US.md)
+
+- [Read the introduction document in English](/Part1-introduction/part1-introduction-US.md)
+
+- [Download the introduction document in English](/Part1-introduction/part1-introduction-US.pdf)
+
+- [Telecharger le document d'introduction en Français](/Part1-introduction/part1-introduction-FR.pdf)
+
 ___
-<a href="/Part1-introduction/part1-introduction-FR.pdf" target="_blank" title="Download" download>Download</a>
 
 *DrCoolZic* :)
