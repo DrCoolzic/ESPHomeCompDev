@@ -10,9 +10,13 @@ It's worth noting that there are certainly other (potentially better) methods fo
 ___
 
 [- Part 1: Introduction to the ESPHome](/Part1-introduction/)
+
 [- Part 2: Setting up the software development environment](/Part2-setup-soft-env/)
+
 [- Part 3: Setting up the hardware needed to test your component](/Part3-setup-hard-env/)
+
 [- Part 4: The component development process](/Part4-comp-dev-process/)
+
 [- Part 5: Example of a component development](/Part5-component-exemple/)
 
 Each section is accompanied by an English (and French) document describing the section in detail. It also contains the different source code used.
