@@ -11,6 +11,8 @@ ___
 
 - [Telecharger le document d'introduction en Français](/Part1-introduction/part1-introduction-FR.pdf)
 
+<a href="/Part1-introduction/part1-introduction-FR.pdf" rel="nofollow">toto</a>
+
 ___
 
 *DrCoolZic* :)
