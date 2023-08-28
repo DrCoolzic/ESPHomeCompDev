@@ -1,13 +1,5 @@
 # ESPHome component design : Overview
 
-In this series I’m going to present:
-
-- A quick introduction to using and creating components for ESPHome
-- A description of the software development environment I use
-- A description of the hardware test environment I use
-- A description of the component development's process
-- An full development's example of a complex component
-
 ## Introduction
 
 Terminology:

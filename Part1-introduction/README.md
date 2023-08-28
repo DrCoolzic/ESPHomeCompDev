@@ -1,8 +1,7 @@
 # ![image](./images/title1.png)
 
-This section briefly explains how ESPHome works for users wishing to create new modules.
-
-Next, we'll take a quick look at what a developer needs to do for creating new components for ESPHome.
+In this short introduction, I first briefly review how ESPHome works for users who simply want to create new devices.
+Then I explain what a developer needs to do to create a new component for ESPHome.
 ___
 
 - [Read the introduction document in English](/Part1-introduction/part1-introduction-US.md)
