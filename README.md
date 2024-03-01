@@ -21,6 +21,5 @@ ___
 - [Part 5: Example of a component development](/Part5-component-exemple/)
 
 Each section is accompanied by an English (and French) document describing the section in detail. It also contains the different source code used.
-If you understand French, you can also watch my accompanying videos on Youtube.
 ___
 Jean Louis-Guerin alias **DrCoolZic** on most forums :)
